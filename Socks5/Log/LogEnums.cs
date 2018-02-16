@@ -3,7 +3,7 @@ namespace Socks5
     internal enum LogType
     {
         Info, // 自定义信息
-        LowLevelError, // .NET Framework错误
+        LowLevelError, // .NET Core错误
         Error, // 自定义错误
         Warning, // 自定义警告
         Other, // 自定义其他
